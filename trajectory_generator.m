@@ -1,10 +1,3 @@
-%% Project Made By HERAZ Walid as a bachelor graduation project at the Institute of Electrical and Electronic Engineering IGEE_ex_INELEC 2024, Algeria
-%% Github : https://github.com/HerazWalid
-%% LinkdIn : https://www.linkedin.com/in/walid-heraz-94337a240/
-
-
-
-%% Position trajectory generation
 function [X_ref,X_dot_ref,X_dot_dot_ref,Y_ref,Y_dot_ref,Y_dot_dot_ref,Z_ref,Z_dot_ref,Z_dot_dot_ref,psi_ref]=trajectory_generator(t,r,f,height_i,height_f)
 
 constants = init_constants();
@@ -45,7 +38,7 @@ x_dot=round(dx.*(1/(Ts*innerDyn_length)),8);
 y_dot=round(dy.*(1/(Ts*innerDyn_length)),8);
 z_dot=round(dz.*(1/(Ts*innerDyn_length)),8);
 
-%% Generate the reference accelerations
+
 ddx=[x_dot(2)-x_dot(1),x_dot(2:end)-x_dot(1:end-1)];
 ddy=[y_dot(2)-y_dot(1),y_dot(2:end)-y_dot(1:end-1)];
 ddz=[z_dot(2)-z_dot(1),z_dot(2:end)-z_dot(1:end-1)];
@@ -53,7 +46,7 @@ ddz=[z_dot(2)-z_dot(1),z_dot(2:end)-z_dot(1:end-1)];
 x_dot_dot=round(ddx.*(1/(Ts*innerDyn_length)),8);
 y_dot_dot=round(ddy.*(1/(Ts*innerDyn_length)),8);
 z_dot_dot=round(ddz.*(1/(Ts*innerDyn_length)),8);
-%% Generate the reference yaw angles
+
 
 psi=zeros(1,length(x));
 psiInt=psi;
