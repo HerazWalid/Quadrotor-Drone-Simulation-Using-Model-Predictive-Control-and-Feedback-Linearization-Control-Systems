@@ -115,7 +115,6 @@ Plots include:
 * MATLAB R2021+ (recommended)
 * Control System Toolbox
 * Optimization Toolbox
-* Model Predictive Control Toolbox
 
 ---
 
