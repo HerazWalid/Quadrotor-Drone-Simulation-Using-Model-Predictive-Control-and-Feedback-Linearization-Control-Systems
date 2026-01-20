@@ -1,5 +1,8 @@
 # 🛩️ Modeling and Simulation of a Quadrotor UAV
 
+# Simulation Video Link:
+https://www.youtube.com/watch?v=N_0XCENQapY
+
 ## Overview
 
 This project focuses on the **mathematical modeling**, **dynamic simulation**, and **control** of a quadrotor Unmanned Aerial Vehicle (UAV). A complete **6-degree-of-freedom (6-DOF)** nonlinear dynamic model is derived using Newton–Euler formalism, incorporating translational and rotational dynamics, gyroscopic effects, and actuator forces.
@@ -134,4 +137,6 @@ Plots include:
 Bachelor’s Thesis – Electrical and Electronic Engineering
 University of Boumerdes
 June 2024
+
+
 
