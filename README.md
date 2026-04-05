@@ -4,16 +4,10 @@
 https://www.youtube.com/watch?v=N_0XCENQapY
 
 
-<div align="center">
 
-![MATLAB](https://img.shields.io/badge/MATLAB-R2023a+-orange?style=for-the-badge&logo=mathworks)
-![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=for-the-badge)
-![Institution](https://img.shields.io/badge/IGEE-Algeria-red?style=for-the-badge)
 
 **Bachelor's Graduation Project — Institute of Electrical and Electronic Engineering (IGEE / ex-INELEC), University of Boumerdes, Algeria, 2024**
 
-*by **HERAZ Walid** — supervised by **Dr. Tabet Youcef***
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Walid%20Heraz-0077B5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/walid-heraz-94337a240/)
 [![GitHub](https://img.shields.io/badge/GitHub-HerazWalid-181717?style=flat-square&logo=github)](https://github.com/HerazWalid)
